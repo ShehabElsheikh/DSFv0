@@ -10,9 +10,9 @@ This guide explains how to **deploy the DSFv0 sentiment analysis model** (saved 
 
 - Raspberry Pi 5 with Raspberry Pi OS (64-bit recommended)
 - Raspberry Pi Camera Module (connected and enabled)
-- MicroSD Card (32GB+)
+- MicroSD Card
 - Internet connection
-- `best.onnx` model (already trained)
+- `best.onnx` model (You get this from here > weights > best.onnx)
 
 ---
 
@@ -157,7 +157,6 @@ python3 camera_onnx.py
 
 - Works best when pointed at **printed or digital subtitles, labels, or readable sentences**.
 - If the camera doesn't open, make sure it's enabled and connected properly.
-- Make sure your `best.onnx` matches the tokenizer (`bert-base-uncased`).
 
 ---
 
